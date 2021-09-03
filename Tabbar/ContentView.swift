@@ -14,6 +14,7 @@ struct ContentView: View {
     let icons = ["house", "gear", "plus", "tram", "candybarphone"]
     var body: some View {
         VStack {
+            
             ZStack {
                 Spacer().fullScreenCover(isPresented: $isfullScreen, content: {
                     Button(action: {
